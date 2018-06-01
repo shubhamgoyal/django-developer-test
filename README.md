@@ -67,7 +67,7 @@ Once the API is setup, it will render a simple HTML representation of the data w
           - Step 2: Do some other things
           - Step 3: Get some help to do this thing
           - Step 4: Celebrate!
-  - **Owner:** [BryceYork](mailto:byork@fusionlabs.com.au)
+  - **Owner:** [BryceYork](mailto:shubham@cerebry.co)
 - **Example Project B**
   - **Description:** This is a different project
   - **Roadmap:** Sample Roadmap 1
@@ -76,7 +76,7 @@ Once the API is setup, it will render a simple HTML representation of the data w
           - Step 2: Do some other things
           - Step 3: Get some help to do this thing
           - Step 4: Celebrate!
-  - **Owner:** [Admin](mailto:admin@fusionlabs.com.au)
+  - **Owner:** [Admin](mailto:rahul@cerebry.co)
 
 ### JSON
 **Full length available in static/data.json**
@@ -109,7 +109,7 @@ Once the API is setup, it will render a simple HTML representation of the data w
     },
     "owner": {
       "username": "BryceYork",
-      "email": "byork@fusionlabs.com.au"
+      "email": "shubham@cerebry.co"
     }
   }
 ]
