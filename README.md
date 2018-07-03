@@ -115,5 +115,5 @@ Once the API is setup, it will render a simple HTML representation of the data w
 ]
 ```
 
-##Submission
+## Submission
 Please submit your work via a pull request on this repo.
