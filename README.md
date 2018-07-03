@@ -12,14 +12,14 @@ We would like to get an idea of how you manage your git workflow, so please make
 Superuser username `admin`, password `admin`.
 
 
-##Requirements
+## Requirements
 We would like you to build out the model and api for the roadmap app.
 
 We would like to have 3 models: Projects, Roadmaps, and Steps.
 
 We would like to have the information stored in the database available via a GET request at an API enpoint, specifically `/api/projects`.
 
-###API
+### API
 - The API should be made using [Django Rest Framework](http://www.django-rest-framework.org/)
 - The API should be accessed via `/api/`
 - GET requesting a Project object via the API should:
@@ -28,14 +28,14 @@ We would like to have the information stored in the database available via a GET
     - return the username and email addresss of the Roadmap Owner (User object) which you'll need to add in the admin
 - The JSON returned by a project should look like the example given below
 
-###Relationships
+### Relationships
 - Each Project has one Roadmap
 - Each Roadmap can belong to any number of Projects
 - Each Project has an owner which is a User (a standard django user)
 - Each Roadmap has a series of Steps that the user will go through in order
 - Each Step can be in any number of Roadmaps
 
-###Attributes
+### Attributes
 - **Project**
     - id
     - Name
@@ -51,11 +51,11 @@ We would like to have the information stored in the database available via a GET
     - Name
     - Explanation (a plain-text explanation of how to complete the step)
 
-##Testing
+## Testing
 Once the API is setup, it will render a simple HTML representation of the data when the user visits the homepage of the project.
 
 
-##Sample Data
+## Sample Data
 ### Output
 ![desired output](sample.png)
 
