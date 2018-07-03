@@ -1,6 +1,6 @@
-#Demo Project Briefing
+# Demo Project Briefing
 
-##Overview
+## Overview
 We've setup a basic django project that we would like you to add some functionality to.
 
 The project has the required config files to run it using Docker. 
